@@ -1,0 +1,61 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.user-comment-card {
+  display: flex;
+  flex-direction: row;
+}
+.user-icon {
+  background-color: orangered;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding-top: 3px;
+  margin-right: 6px;
+}
+.time {
+  color: grey;
+  font-size: 10px;
+}
+.comment-like-delete-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.like-card {
+  display: flex;
+  flex-direction: row;
+}
+.liked {
+  color: blue;
+}
+.no-like {
+  background-color: black;
+}

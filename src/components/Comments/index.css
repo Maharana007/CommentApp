@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.comment-container {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  justify-content: space-between;
+  /* border-bottom: 2px #cbd2d9 solid; */
+}
+.comment-card {
+  display: flex;
+  flex-direction: column;
+  /* width: 50vw; */
+}
+.comment-box {
+  width: 250px;
+  margin-bottom: 15px;
+}
+.comment-img-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.comment-img {
+  height: 40vh;
+  width: 40vw;
+  margin: 20px;
+}
+.button {
+  background-color: blue;
+  border: none;
+  width: 100px;
+  height: 20px;
+}
+/* .comments-bottom-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+} */
+.comments-sub-title {
+  display: flex;
+  flex-direction: row;
+}
+.comment-count {
+  background-color: blue;
+  width: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.under-line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+/* 
+.user-comment-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px #cbd2d9 solid;
+}
+.user-comment-card {
+  display: flex;
+  flex-direction: row;
+}
+.user-icon {
+  background-color: orangered;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding-top: 3px;
+  margin-right: 6px;
+}
+.time {
+  color: grey;
+  font-size: 10px;
+}
+.comment-like-delete-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.like-card {
+  display: flex;
+  flex-direction: row;
+} */
