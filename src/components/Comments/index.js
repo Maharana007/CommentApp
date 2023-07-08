@@ -90,7 +90,7 @@ class Comments extends Component {
     const {commentList, userName, comment} = this.state
     return (
       <div className="container">
-        <form className="comment-container">
+        <form className="comment-container" onSubmit={this.addComment}>
           <div className="comment-card">
             <h1 className="title"> Comments </h1>
             <p className="details"> say something about 4.O technologies</p>
@@ -109,7 +109,7 @@ class Comments extends Component {
               cols="20"
               onChange={this.changeComment}
             />
-            <button type="submit" className="button" onSubmit={this.addComment}>
+            <button type="submit" className="button" >
               Add Comment
             </button>
           </div>
