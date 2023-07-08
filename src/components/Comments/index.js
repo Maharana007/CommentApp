@@ -109,7 +109,7 @@ class Comments extends Component {
               cols="20"
               onChange={this.changeComment}
             />
-            <button type="submit" className="button" onClick={this.addComment}>
+            <button type="submit" className="button" onSubmit={this.addComment}>
               Add Comment
             </button>
           </div>
@@ -126,7 +126,7 @@ class Comments extends Component {
           <span className="comment-count"> {commentList.length} </span>
           Comments
         </p>
-        <ul className="user-comment-container">{this.addCommentList}</ul>
+        <ul className="user-comment-container">{this.addCommentList()}</ul>
       </div>
     )
   }
